@@ -14,7 +14,7 @@ gulp.task('server', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('src/server/**/*.*', ['server']);
+  gulp.watch('src/server.js', ['server']);
 });
 
 gulp.task('default', ['watch', 'server']);
