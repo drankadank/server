@@ -1,0 +1,25 @@
+{
+  "name": "drank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/server.js",
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "author": "Arjun Sarode <sarodearjun57@gmail.com> (http://arjun.ink/)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "firebase": "^2.2.9"
+  }
+}
