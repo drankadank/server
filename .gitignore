@@ -23,7 +23,4 @@ coverage
 build/Release
 
 # Dependency directory
-node_modules
-
-# Distribution files
-dist/
+# node_modules
