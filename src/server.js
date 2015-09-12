@@ -29,6 +29,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/start', (req, res) => {
+  console.log('pinged start');
   let { timestamp, id } = req.body;
   let chugsRef = ref.child('chugs');
   chugsRef.set({
@@ -47,6 +48,7 @@ app.post('/start', (req, res) => {
 });
 
 app.put('/end', (req, res) => {
+  console.log('pinged end');
   let { timestamp, id } = req.body;
   let chugsRef = ref.child('chugs');
   chugsRef.update({
